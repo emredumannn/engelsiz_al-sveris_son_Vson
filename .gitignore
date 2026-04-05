@@ -1,0 +1,27 @@
+# Gereksiz sistem dosyalari
+venv/
+__pycache__/
+.idea/
+.vscode/
+*.pyc
+*.DS_Store
+.env
+
+# Mobil dosyalari
+mobile/build/
+mobile/.dart_tool/
+mobile/.pub-cache/
+mobile/android/.gradle/
+mobile/ios/Flutter/Generated.xcconfig
+mobile/ios/Flutter/flutter_export_environment.sh
+
+# Zip files
+*.zip
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+emulators.txt

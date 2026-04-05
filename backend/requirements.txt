@@ -1,0 +1,18 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-multipart
+email-validator
+# Database
+sqlalchemy
+alembic
+psycopg2-binary
+# Security
+python-jose[cryptography]
+passlib[bcrypt]
+# AI/Image Processing (Future Proofing)
+httpx
+redis
+python-multipart
+requests
